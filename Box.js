@@ -1,7 +1,7 @@
 class Box {
   constructor(x, y, width, height) {
     var options = {
-        'restitution':1,
+        'restitution':0.8,
         'friction':1.0,
         'density':20,
          //modify the value of isStatic so that box objects can move
