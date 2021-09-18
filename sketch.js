@@ -22,32 +22,32 @@ function setup() {
   rope = new Rope(hero.body, { x: 500, y: 50 });
   monster = new Monster(1100,550,300);
 
-  box1 = new Box(600, 200, 70, 70);
-  box2 = new Box(900, 200, 70, 70);
-  box3 = new Box(900, 200, 70, 70);
-  box4 = new Box(900, 200, 70, 70);
-  box5 = new Box(900, 200, 70, 70);
-  box6 = new Box(900, 200, 70, 70);
-  box7 = new Box(800, 200, 70, 70);
-  box8 = new Box(800, 200, 70, 70);
-  box9 = new Box(800, 100, 70, 70);
-  box10 = new Box(800, 200, 70, 70);
-  box11 = new Box(800, 200, 70, 70);
-  box12 = new Box(800, 200, 70, 70);
-  box13 = new Box(800, 100, 70, 70);
-  box14 = new Box(800, 200, 70, 70);
-  box15 = new Box(700, 200, 70, 70);
-  box16 = new Box(700, 200, 70, 70);
-  box17 = new Box(700, 100, 70, 70);
-  box18 = new Box(700, 100, 70, 70);
-  box19 = new Box(700, 100, 70, 70);
-  box20 = new Box(700, 100, 70, 70);
-  box21 = new Box(600, 100, 70, 70);
-  box22 = new Box(600, 100, 70, 70);
-  box23 = new Box(600, 100, 70, 70);
-  box24 = new Box(600, 100, 70, 70);
-  box25 = new Box(600, 100, 70, 70);
-  box26 = new Box(600, 100, 70, 70);
+  box1 = new Box(600, 540, 70, 70);
+  box2 = new Box(600, 470, 70, 70);
+  box3 = new Box(600, 400, 70, 70);
+  box4 = new Box(600, 330, 70, 70);
+  box5 = new Box(600, 260, 70, 70);
+  box6 = new Box(600, 190, 70, 70);
+  box7 = new Box(800, 540, 70, 70);
+  box8 = new Box(800, 470, 70, 70);
+  box9 = new Box(800, 400, 70, 70);
+  box10 = new Box(800, 330, 70, 70);
+  box11 = new Box(800, 260, 70, 70);
+  box12 = new Box(800, 190, 70, 70);
+  box13 = new Box(700, 120, 70, 70);
+  box14 = new Box(700, 540, 70, 70);
+  box15 = new Box(700, 470, 70, 70);
+  box16 = new Box(700, 400, 70, 70);
+  box17 = new Box(700, 330, 70, 70);
+  box18 = new Box(700, 260, 70, 70);
+  box19 = new Box(700, 190, 70, 70);
+  //box20 = new Box(700, 100, 70, 70);
+ // box21 = new Box(600, 100, 70, 70);
+ // box22 = new Box(600, 100, 70, 70);
+  //box23 = new Box(600, 100, 70, 70);
+  //box24 = new Box(600, 100, 70, 70);
+  //box25 = new Box(600, 100, 70, 70);
+  //box26 = new Box(600, 100, 70, 70);
 
 }
 
@@ -74,13 +74,13 @@ function draw() {
   box17.display()
   box18.display()
   box19.display()
-  box20.display()
-  box21.display()
-  box22.display()
-  box23.display()
-  box24.display()
-  box25.display()
-  box26.display()
+ //box20.display()
+  //box21.display()
+  //box22.display()
+  //box23.display()
+  //box24.display()
+  //box25.display()
+  //box26.display()
 
   hero.display();
   rope.display();
